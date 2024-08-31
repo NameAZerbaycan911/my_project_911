@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "HEADPHONE, WATCHES",
+        "description": "Sleeveless Viscose Top",
+        "image": "img1",
+        "price": "$109"
+    },
+    {
+        "id": 2,
+        "name": "HEADPHONE, WATCHES",
+        "description": "Sleeveless Viscose Top",
+        "image": "img2",
+        "price": "$49"
+    },
+    {
+        "id": 3,
+        "name": "HEADPHONE, WATCHES",
+        "description": "Sleeveless Viscose Top",
+        "image": "img3",
+        "price": "$299"
+    },
+    {
+        "id": 4,
+        "name": "HEADPHONE, WATCHES",
+        "description": "Sleeveless Viscose Top",
+        "image": "img4",
+        "price": "$1999"
+    },
+    {
+        "id": 5,
+        "name": "HEADPHONE, WATCHES",
+        "description": "Sleeveless Viscose Top",
+        "image": "img5",
+        "price": "$49"
+    }
+]

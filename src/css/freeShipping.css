@@ -1,0 +1,4 @@
+.ship1{
+    transition-property: height;
+    transition-duration: 1s;
+}

@@ -1,0 +1,55 @@
+.openCategories1 {
+    display: none;
+    height: 330px;
+    animation: key1 1s;
+}
+
+.openIt:hover .openCategories1 {
+    display: block;
+    animation: key1 1s;
+}
+
+.featuresHover1 {
+    display: none;
+    animation: key2 500ms;
+}
+
+.openIt2:hover .featuresHover1 {
+    display: block;
+    animation: key2 500ms;
+}
+
+.productHover1 {
+    display: none;
+    animation: key3 500ms;
+}
+
+.productHover:hover .productHover1 {
+    display: block;
+    animation: key3 500ms;
+}
+
+@keyframes key1 {
+    from {
+        top: -5px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+@keyframes key2 {
+    from {
+        top: -5px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+@keyframes key3 {
+    from {
+        top: -5px;
+    }
+    to {
+        bottom: 0px;
+    }
+}

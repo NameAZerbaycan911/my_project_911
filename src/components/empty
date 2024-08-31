@@ -1,0 +1,147 @@
+<Container>
+                <div className='font-bold text-[15px] pt-[60px] ml-[20px]'>FEATURED PRODUCTS</div>
+                <div className="slider-container w-[1100px] h-[460px] mt-[10px] ml-[23px] border-t-2">
+                    <Slider {...settings} className='flex h-[420px] pt-[20px]' >
+                        <div className='w-[250px] h-[400px]'>
+                            <div className='openIt'>
+                                <div className='relative overflow-hidden'>
+                                    <span className='absolute top-4 left-0 text-white text-[10px] py-[3px] px-[12px] bg-green-500 font-bold z-10'>HOT</span>
+                                    <img src={img1} alt=""/>
+                                    <div className='relative flex items-center justify-center'>
+                                        <button className='flex items-center justify-center gap-2 bg-blue-600 text-white w-[100%] h-[40px] absolute bottom-[0px] text-[13px] font-bold selectOptionsOpen'><FaArrowRightLong /><a href="">SELECT OPTIONS</a></button>
+                                    </div>
+                                </div>
+                                <div className='flex flex-col mt-[20px] items-center gap-1'>
+                                    <h6 className='text-[10px] text-gray-400 font-bold '>HEADPHONE, WATCHES</h6>
+                                    <p>Sleeveless Viscose Top</p>
+                                    <div className='flex text-[19px] text-gray-400 '>
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                    </div>
+                                    <span className='text-[19px] text-gray-800 font-bold'>$199.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='w-[250px] h-[400px]'>
+                            <div className='openIt'>
+                                <div className='relative'>
+                                    <span className='absolute top-4 left-0 text-white text-[10px] py-[3px] px-[12px] bg-green-500 font-bold z-10'>HOT</span>
+                                    <img src={img2} alt="" />
+                                    <div className='relative flex items-center justify-center'>
+                                        <button className='flex items-center justify-center gap-2 bg-blue-600 text-white w-[100%] h-[40px] absolute bottom-[0px] text-[13px] font-bold selectOptionsOpen'><FaArrowRightLong /><a href="">SELECT OPTIONS</a></button>
+                                    </div>
+                                </div>
+                                <div className='flex flex-col mt-[20px] items-center gap-1'>
+                                    <h6 className='text-[10px] text-gray-400 font-bold '>ELECTRONICS,HEADPHONE</h6>
+                                    <p>Pioilj Messenger Bag</p>
+                                    <div className='flex text-[19px] text-gray-400 '>
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                    </div>
+                                    <span className='text-[19px] text-gray-800 font-bold'>$49.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='w-[250px] h-[400px]'>
+                            <div className='openIt'>
+                                <div>
+                                    <div className='relative'>
+                                        <span className='absolute top-4 left-0 text-white text-[10px] py-[3px] px-[12px] bg-green-500 font-bold z-10'>HOT</span>
+                                        <span className='absolute top-10 left-0 text-white text-[10px] py-[3px] px-[14px] bg-red-400 font-bold z-10'>-3%</span>
+                                    </div>
+                                    <img src={img3} alt="" />
+                                    <div className='relative flex items-center justify-center'>
+                                        <button className='flex items-center justify-center gap-2 bg-blue-600 text-white w-[100%] h-[40px] absolute bottom-[0px] text-[13px] font-bold selectOptionsOpen'>< BiShoppingBag className='text-[20px]'/><a href="">ADD TO CART</a></button>
+                                    </div>
+                                </div>
+                                <div className='flex flex-col mt-[20px] items-center gap-1'>
+                                    <h6 className='text-[10px] text-gray-400 font-bold '>HEADPHONE, WATCHES</h6>
+                                    <p>Leather women Tote Bag</p>
+                                    <div className='flex text-[19px] text-gray-400 '>
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                    </div>
+                                    <span className='text-[19px] text-gray-800 font-bold'>$289.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='w-[250px] h-[400px]'>
+                            <div className='openIt'>
+                                <div>
+                                    <div className='relative'>
+                                        <span className='absolute top-4 left-0 text-white text-[10px] py-[3px] px-[12px] bg-green-500 font-bold z-10'>HOT</span>
+                                        <span className='absolute top-10 left-0 text-white text-[10px] py-[3px] px-[14px] bg-red-400 font-bold z-10'>-3%</span>
+                                    </div>
+                                    <img src={img4} alt="" />
+                                    <div className='relative flex items-center justify-center'>
+                                        <button className='flex items-center justify-center gap-2 bg-blue-600 text-white w-[100%] h-[40px] absolute bottom-[0px] text-[13px] font-bold selectOptionsOpen'>< BiShoppingBag className='text-[20px]'/><a href="">ADD TO CART</a></button>
+                                    </div>
+                                </div>
+                                <div className='flex flex-col mt-[20px] items-center gap-1'>
+                                    <h6 className='text-[10px] text-gray-400 font-bold '>TOYS, TROUSERS</h6>
+                                    <p>Orleans Beachfarer Sunglasses</p>
+                                    <div className='flex text-[19px] text-gray-400 '>
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                    </div>
+                                    <span className='text-[19px] text-gray-800 font-bold'>$1699.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='w-[250px] h-[400px]'>
+                            <div className='openIt'>
+                                <div className='relative'>
+
+                                    <span className='absolute top-4 left-0 text-white text-[10px] py-[3px] px-[12px] bg-green-500 font-bold z-10'>HOT</span>
+
+                                    <img src={img5} alt="" />
+                                    <div className='relative flex items-center justify-center'>
+                                        <button className='flex items-center justify-center gap-2 bg-blue-600 text-white w-[100%] h-[40px] absolute bottom-[0px] text-[13px] font-bold selectOptionsOpen'>< BiShoppingBag className='text-[20px]'/><a href="">ADD TO CART</a></button>
+                                    </div>
+                                </div>
+                                <div className='flex flex-col mt-[20px] items-center gap-1'>
+                                    <h6 className='text-[10px] text-gray-400 font-bold '>HEADPHONE, WATCHES</h6>
+                                    <p>Adidas Sky Blue T-shirt</p>
+                                    <div className='flex text-[19px] text-gray-400 '>
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                        <RiStarSFill />
+                                    </div>
+                                    <span className='text-[19px] text-gray-800 font-bold'>$199.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Slider>
+                </div>
+            </Container>
+
+
+
+
+
+
+
+            const totalAmount = () =>{
+                let amount = 0
+                for(let total of cartItem){
+                    if(cartItem[total] > 0){
+                       let productInfo = Product.find(resp => resp.id === Number(total))
+                       amount +- Math.floor(cartItem[total] * productInfo.price)
+                    }
+                }
+                return amount
+            }
